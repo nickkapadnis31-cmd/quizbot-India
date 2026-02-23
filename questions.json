@@ -1,34 +1,4502 @@
 [
-  {"question":"2 + 2 = ?","options":{"A":"3","B":"4","C":"5"},"answer":"B"},
-  {"question":"5 × 3 = ?","options":{"A":"15","B":"10","C":"8"},"answer":"A"},
-  {"question":"10 - 6 = ?","options":{"A":"2","B":"3","C":"4"},"answer":"C"},
-  {"question":"Which is a fruit?","options":{"A":"Apple","B":"Carrot","C":"Potato"},"answer":"A"},
-  {"question":"Capital of India?","options":{"A":"Mumbai","B":"New Delhi","C":"Pune"},"answer":"B"},
-  {"question":"Largest planet?","options":{"A":"Mars","B":"Earth","C":"Jupiter"},"answer":"C"},
-  {"question":"Water freezes at (°C)?","options":{"A":"0","B":"10","C":"100"},"answer":"A"},
-  {"question":"Sun rises in the?","options":{"A":"West","B":"East","C":"North"},"answer":"B"},
-  {"question":"Which is a weekday?","options":{"A":"Monday","B":"Diwali","C":"Holi"},"answer":"A"},
-  {"question":"Which is a color?","options":{"A":"Blue","B":"Banana","C":"Table"},"answer":"A"},
-
-  {"question":"7 + 8 = ?","options":{"A":"14","B":"15","C":"16"},"answer":"B"},
-  {"question":"12 ÷ 3 = ?","options":{"A":"3","B":"4","C":"6"},"answer":"B"},
-  {"question":"9 - 5 = ?","options":{"A":"3","B":"4","C":"5"},"answer":"B"},
-  {"question":"Which is an animal?","options":{"A":"Tiger","B":"Rose","C":"Chair"},"answer":"A"},
-  {"question":"Which is a vegetable?","options":{"A":"Mango","B":"Tomato","C":"Carrot"},"answer":"C"},
-  {"question":"How many days in a week?","options":{"A":"5","B":"7","C":"10"},"answer":"B"},
-  {"question":"Which is a programming language?","options":{"A":"Python","B":"Windows","C":"Chrome"},"answer":"A"},
-  {"question":"Which one is a browser?","options":{"A":"Google","B":"Chrome","C":"Python"},"answer":"B"},
-  {"question":"Which is a river?","options":{"A":"Ganga","B":"Himalaya","C":"Thar"},"answer":"A"},
-  {"question":"Which is a desert?","options":{"A":"Sahara","B":"Amazon","C":"Pacific"},"answer":"A"},
-
-  {"question":"Square root of 49?","options":{"A":"6","B":"7","C":"8"},"answer":"B"},
-  {"question":"15 + 5 = ?","options":{"A":"20","B":"10","C":"25"},"answer":"A"},
-  {"question":"Which is a festival?","options":{"A":"Diwali","B":"Sunday","C":"Laptop"},"answer":"A"},
-  {"question":"How many months in a year?","options":{"A":"10","B":"11","C":"12"},"answer":"C"},
-  {"question":"Which is a transport?","options":{"A":"Bus","B":"Pen","C":"Plate"},"answer":"A"},
-  {"question":"Which is a country?","options":{"A":"India","B":"Delhi","C":"Ganga"},"answer":"A"},
-  {"question":"Opposite of Hot?","options":{"A":"Cold","B":"Warm","C":"Heat"},"answer":"A"},
-  {"question":"Which is a shape?","options":{"A":"Circle","B":"Sugar","C":"Tiger"},"answer":"A"},
-  {"question":"Which is a metal?","options":{"A":"Iron","B":"Wood","C":"Milk"},"answer":"A"},
-  {"question":"Which is a bird?","options":{"A":"Sparrow","B":"Lion","C":"Fish"},"answer":"A"}
+  {
+    "question": "What is 175 + 40?",
+    "options": [
+      "A) 210",
+      "B) 220",
+      "C) 215"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 185 + 151?",
+    "options": [
+      "A) 316",
+      "B) 351",
+      "C) 336"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 71 + 141?",
+    "options": [
+      "A) 212",
+      "B) 192",
+      "C) 207"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 68 + 126?",
+    "options": [
+      "A) 199",
+      "B) 174",
+      "C) 194"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 99 + 83?",
+    "options": [
+      "A) 192",
+      "B) 177",
+      "C) 182"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 109 + 36?",
+    "options": [
+      "A) 150",
+      "B) 155",
+      "C) 145"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 149 + 43?",
+    "options": [
+      "A) 192",
+      "B) 207",
+      "C) 167"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 159 + 61?",
+    "options": [
+      "A) 215",
+      "B) 220",
+      "C) 205"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 71 + 37?",
+    "options": [
+      "A) 118",
+      "B) 113",
+      "C) 108"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 102 + 65?",
+    "options": [
+      "A) 152",
+      "B) 167",
+      "C) 172"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 148 + 198?",
+    "options": [
+      "A) 361",
+      "B) 346",
+      "C) 336"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 187 + 95?",
+    "options": [
+      "A) 282",
+      "B) 262",
+      "C) 292"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 28 + 66?",
+    "options": [
+      "A) 94",
+      "B) 114",
+      "C) 104"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 48 + 79?",
+    "options": [
+      "A) 127",
+      "B) 144",
+      "C) 122"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 161 + 121?",
+    "options": [
+      "A) 277",
+      "B) 297",
+      "C) 282"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 35 + 24?",
+    "options": [
+      "A) 59",
+      "B) 49",
+      "C) 44"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 164 + 28?",
+    "options": [
+      "A) 192",
+      "B) 212",
+      "C) 207"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 153 + 14?",
+    "options": [
+      "A) 167",
+      "B) 180",
+      "C) 152"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 40 + 87?",
+    "options": [
+      "A) 127",
+      "B) 107",
+      "C) 117"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 140 + 57?",
+    "options": [
+      "A) 202",
+      "B) 197",
+      "C) 182"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 51 + 107?",
+    "options": [
+      "A) 148",
+      "B) 162",
+      "C) 158"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 137 + 16?",
+    "options": [
+      "A) 163",
+      "B) 158",
+      "C) 153"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 73 + 157?",
+    "options": [
+      "A) 250",
+      "B) 215",
+      "C) 230"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 44 + 180?",
+    "options": [
+      "A) 229",
+      "B) 239",
+      "C) 224"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 194 + 91?",
+    "options": [
+      "A) 295",
+      "B) 285",
+      "C) 283"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 75 + 69?",
+    "options": [
+      "A) 154",
+      "B) 115",
+      "C) 144"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 13 + 30?",
+    "options": [
+      "A) 23",
+      "B) 28",
+      "C) 43"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 30 + 143?",
+    "options": [
+      "A) 193",
+      "B) 178",
+      "C) 173"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 197 + 158?",
+    "options": [
+      "A) 370",
+      "B) 375",
+      "C) 355"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 36 + 180?",
+    "options": [
+      "A) 231",
+      "B) 216",
+      "C) 226"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 184 + 179?",
+    "options": [
+      "A) 363",
+      "B) 378",
+      "C) 348"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 39 + 75?",
+    "options": [
+      "A) 134",
+      "B) 109",
+      "C) 114"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 58 + 83?",
+    "options": [
+      "A) 126",
+      "B) 141",
+      "C) 136"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 24 + 178?",
+    "options": [
+      "A) 182",
+      "B) 197",
+      "C) 202"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 136 + 135?",
+    "options": [
+      "A) 286",
+      "B) 251",
+      "C) 271"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 12 + 111?",
+    "options": [
+      "A) 123",
+      "B) 138",
+      "C) 143"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 51 + 60?",
+    "options": [
+      "A) 84",
+      "B) 106",
+      "C) 111"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 26 + 24?",
+    "options": [
+      "A) 52",
+      "B) 70",
+      "C) 50"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 142 + 32?",
+    "options": [
+      "A) 164",
+      "B) 174",
+      "C) 159"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 115 + 42?",
+    "options": [
+      "A) 152",
+      "B) 157",
+      "C) 137"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 119 + 180?",
+    "options": [
+      "A) 306",
+      "B) 304",
+      "C) 299"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 73 + 79?",
+    "options": [
+      "A) 152",
+      "B) 142",
+      "C) 157"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 30 + 14?",
+    "options": [
+      "A) 29",
+      "B) 18",
+      "C) 44"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 45 + 101?",
+    "options": [
+      "A) 146",
+      "B) 141",
+      "C) 131"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 52 + 124?",
+    "options": [
+      "A) 181",
+      "B) 176",
+      "C) 199"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 182 + 153?",
+    "options": [
+      "A) 325",
+      "B) 335",
+      "C) 320"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 39 + 153?",
+    "options": [
+      "A) 192",
+      "B) 187",
+      "C) 197"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 64 + 187?",
+    "options": [
+      "A) 271",
+      "B) 251",
+      "C) 256"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 35 + 174?",
+    "options": [
+      "A) 214",
+      "B) 209",
+      "C) 189"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 175 + 79?",
+    "options": [
+      "A) 274",
+      "B) 254",
+      "C) 269"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 40 + 31?",
+    "options": [
+      "A) 61",
+      "B) 71",
+      "C) 51"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 122 + 44?",
+    "options": [
+      "A) 171",
+      "B) 166",
+      "C) 146"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 186 + 75?",
+    "options": [
+      "A) 246",
+      "B) 261",
+      "C) 253"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 72 + 53?",
+    "options": [
+      "A) 115",
+      "B) 140",
+      "C) 125"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 97 + 117?",
+    "options": [
+      "A) 209",
+      "B) 214",
+      "C) 204"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 109 + 21?",
+    "options": [
+      "A) 130",
+      "B) 150",
+      "C) 125"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 90 + 70?",
+    "options": [
+      "A) 160",
+      "B) 140",
+      "C) 155"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 83 + 29?",
+    "options": [
+      "A) 112",
+      "B) 117",
+      "C) 104"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 19 + 41?",
+    "options": [
+      "A) 60",
+      "B) 65",
+      "C) 45"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 100 + 198?",
+    "options": [
+      "A) 295",
+      "B) 308",
+      "C) 298"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 159 + 60?",
+    "options": [
+      "A) 234",
+      "B) 199",
+      "C) 219"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 105 + 122?",
+    "options": [
+      "A) 227",
+      "B) 212",
+      "C) 237"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 141 + 91?",
+    "options": [
+      "A) 237",
+      "B) 232",
+      "C) 247"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 61 + 119?",
+    "options": [
+      "A) 180",
+      "B) 170",
+      "C) 195"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 115 + 152?",
+    "options": [
+      "A) 247",
+      "B) 272",
+      "C) 267"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 160 + 167?",
+    "options": [
+      "A) 347",
+      "B) 327",
+      "C) 337"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 142 + 133?",
+    "options": [
+      "A) 275",
+      "B) 260",
+      "C) 265"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 35 + 72?",
+    "options": [
+      "A) 112",
+      "B) 102",
+      "C) 107"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 23 + 74?",
+    "options": [
+      "A) 112",
+      "B) 97",
+      "C) 82"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 195 + 190?",
+    "options": [
+      "A) 380",
+      "B) 405",
+      "C) 385"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 39 + 120?",
+    "options": [
+      "A) 149",
+      "B) 159",
+      "C) 180"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 154 + 75?",
+    "options": [
+      "A) 229",
+      "B) 214",
+      "C) 219"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 125 + 168?",
+    "options": [
+      "A) 315",
+      "B) 293",
+      "C) 290"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 133 + 127?",
+    "options": [
+      "A) 260",
+      "B) 265",
+      "C) 255"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 172 + 73?",
+    "options": [
+      "A) 250",
+      "B) 265",
+      "C) 245"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 97 + 93?",
+    "options": [
+      "A) 217",
+      "B) 180",
+      "C) 190"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 110 + 189?",
+    "options": [
+      "A) 299",
+      "B) 294",
+      "C) 314"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 150 + 131?",
+    "options": [
+      "A) 261",
+      "B) 281",
+      "C) 296"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 159 + 109?",
+    "options": [
+      "A) 268",
+      "B) 278",
+      "C) 248"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 119 + 149?",
+    "options": [
+      "A) 263",
+      "B) 268",
+      "C) 285"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 119 − 65?",
+    "options": [
+      "A) 54",
+      "B) 29",
+      "C) 47"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 235 − 52?",
+    "options": [
+      "A) 195",
+      "B) 171",
+      "C) 183"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 201 − 154?",
+    "options": [
+      "A) 22",
+      "B) 47",
+      "C) 35"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 62 − 26?",
+    "options": [
+      "A) 36",
+      "B) 29",
+      "C) 43"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 244 − 235?",
+    "options": [
+      "A) 16",
+      "B) 2",
+      "C) 9"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 293 − 189?",
+    "options": [
+      "A) 72",
+      "B) 104",
+      "C) 129"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 243 − 17?",
+    "options": [
+      "A) 214",
+      "B) 238",
+      "C) 226"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 82 − 70?",
+    "options": [
+      "A) 12",
+      "B) 24",
+      "C) 19"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 246 − 104?",
+    "options": [
+      "A) 154",
+      "B) 142",
+      "C) 167"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 249 − 219?",
+    "options": [
+      "A) 23",
+      "B) 42",
+      "C) 30"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 197 − 183?",
+    "options": [
+      "A) 21",
+      "B) 14",
+      "C) 39"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 76 − 48?",
+    "options": [
+      "A) 64",
+      "B) 28",
+      "C) 3"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 138 − 119?",
+    "options": [
+      "A) 44",
+      "B) 19",
+      "C) 32"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 160 − 102?",
+    "options": [
+      "A) 83",
+      "B) 65",
+      "C) 58"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 207 − 147?",
+    "options": [
+      "A) 60",
+      "B) 75",
+      "C) 67"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 132 − 119?",
+    "options": [
+      "A) 6",
+      "B) 13",
+      "C) 4"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 242 − 128?",
+    "options": [
+      "A) 126",
+      "B) 107",
+      "C) 114"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 267 − 176?",
+    "options": [
+      "A) 91",
+      "B) 84",
+      "C) 98"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 121 − 86?",
+    "options": [
+      "A) 47",
+      "B) 10",
+      "C) 35"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 175 − 152?",
+    "options": [
+      "A) 48",
+      "B) 30",
+      "C) 23"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 125 − 38?",
+    "options": [
+      "A) 87",
+      "B) 112",
+      "C) 80"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 171 − 151?",
+    "options": [
+      "A) 20",
+      "B) 45",
+      "C) 13"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 140 − 126?",
+    "options": [
+      "A) 2",
+      "B) 7",
+      "C) 14"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 130 − 25?",
+    "options": [
+      "A) 133",
+      "B) 93",
+      "C) 105"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 120 − 102?",
+    "options": [
+      "A) 30",
+      "B) 18",
+      "C) 53"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 263 − 59?",
+    "options": [
+      "A) 192",
+      "B) 204",
+      "C) 179"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 120 − 15?",
+    "options": [
+      "A) 117",
+      "B) 130",
+      "C) 105"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 76 − 11?",
+    "options": [
+      "A) 65",
+      "B) 58",
+      "C) 72"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 97 − 16?",
+    "options": [
+      "A) 73",
+      "B) 56",
+      "C) 81"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 175 − 28?",
+    "options": [
+      "A) 135",
+      "B) 172",
+      "C) 147"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 71 − 25?",
+    "options": [
+      "A) 58",
+      "B) 46",
+      "C) 82"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 248 − 143?",
+    "options": [
+      "A) 105",
+      "B) 112",
+      "C) 98"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 128 − 82?",
+    "options": [
+      "A) 21",
+      "B) 71",
+      "C) 46"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 210 − 64?",
+    "options": [
+      "A) 171",
+      "B) 134",
+      "C) 146"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 191 − 29?",
+    "options": [
+      "A) 162",
+      "B) 137",
+      "C) 169"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 124 − 14?",
+    "options": [
+      "A) 103",
+      "B) 110",
+      "C) 135"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 225 − 69?",
+    "options": [
+      "A) 168",
+      "B) 156",
+      "C) 149"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 158 − 39?",
+    "options": [
+      "A) 112",
+      "B) 107",
+      "C) 119"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 65 − 20?",
+    "options": [
+      "A) 38",
+      "B) 45",
+      "C) 57"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 169 − 87?",
+    "options": [
+      "A) 82",
+      "B) 94",
+      "C) 75"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 70 − 48?",
+    "options": [
+      "A) 29",
+      "B) 22",
+      "C) 34"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 73 − 39?",
+    "options": [
+      "A) 34",
+      "B) 41",
+      "C) 46"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 284 − 152?",
+    "options": [
+      "A) 157",
+      "B) 132",
+      "C) 144"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 170 − 99?",
+    "options": [
+      "A) 64",
+      "B) 96",
+      "C) 71"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 134 − 62?",
+    "options": [
+      "A) 65",
+      "B) 72",
+      "C) 83"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 166 − 32?",
+    "options": [
+      "A) 127",
+      "B) 134",
+      "C) 109"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 218 − 148?",
+    "options": [
+      "A) 70",
+      "B) 58",
+      "C) 77"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 209 − 203?",
+    "options": [
+      "A) 22",
+      "B) 31",
+      "C) 6"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 118 − 80?",
+    "options": [
+      "A) 31",
+      "B) 38",
+      "C) 63"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 57 − 50?",
+    "options": [
+      "A) 44",
+      "B) 32",
+      "C) 7"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 191 − 13?",
+    "options": [
+      "A) 166",
+      "B) 185",
+      "C) 178"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 292 − 70?",
+    "options": [
+      "A) 222",
+      "B) 234",
+      "C) 229"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 156 − 133?",
+    "options": [
+      "A) 11",
+      "B) 35",
+      "C) 23"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 98 − 86?",
+    "options": [
+      "A) 12",
+      "B) 37",
+      "C) 5"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 289 − 269?",
+    "options": [
+      "A) 20",
+      "B) 13",
+      "C) 14"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 264 − 160?",
+    "options": [
+      "A) 126",
+      "B) 129",
+      "C) 104"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 187 − 133?",
+    "options": [
+      "A) 54",
+      "B) 84",
+      "C) 47"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 166 − 92?",
+    "options": [
+      "A) 86",
+      "B) 74",
+      "C) 99"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 269 − 220?",
+    "options": [
+      "A) 49",
+      "B) 74",
+      "C) 42"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 219 − 212?",
+    "options": [
+      "A) 14",
+      "B) 7",
+      "C) 19"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 20 × 9?",
+    "options": [
+      "A) 189",
+      "B) 180",
+      "C) 170"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 8 × 21?",
+    "options": [
+      "A) 176",
+      "B) 168",
+      "C) 173"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 16 × 23?",
+    "options": [
+      "A) 378",
+      "B) 368",
+      "C) 391"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 25 × 8?",
+    "options": [
+      "A) 205",
+      "B) 200",
+      "C) 192"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 9 × 20?",
+    "options": [
+      "A) 171",
+      "B) 185",
+      "C) 180"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 7 × 15?",
+    "options": [
+      "A) 95",
+      "B) 115",
+      "C) 105"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 24 × 11?",
+    "options": [
+      "A) 288",
+      "B) 264",
+      "C) 254"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 21 × 24?",
+    "options": [
+      "A) 504",
+      "B) 509",
+      "C) 499"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 6 × 20?",
+    "options": [
+      "A) 125",
+      "B) 133",
+      "C) 120"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 20 × 17?",
+    "options": [
+      "A) 340",
+      "B) 360",
+      "C) 345"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 20 × 15?",
+    "options": [
+      "A) 320",
+      "B) 315",
+      "C) 300"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 18 × 24?",
+    "options": [
+      "A) 437",
+      "B) 432",
+      "C) 450"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 24 × 7?",
+    "options": [
+      "A) 175",
+      "B) 173",
+      "C) 168"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 13 × 12?",
+    "options": [
+      "A) 161",
+      "B) 156",
+      "C) 146"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 7 × 15?",
+    "options": [
+      "A) 120",
+      "B) 105",
+      "C) 115"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 8 × 15?",
+    "options": [
+      "A) 115",
+      "B) 128",
+      "C) 120"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 22 × 22?",
+    "options": [
+      "A) 484",
+      "B) 474",
+      "C) 489"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 15 × 16?",
+    "options": [
+      "A) 240",
+      "B) 224",
+      "C) 235"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 23 × 17?",
+    "options": [
+      "A) 396",
+      "B) 391",
+      "C) 414"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 20 × 17?",
+    "options": [
+      "A) 340",
+      "B) 360",
+      "C) 345"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 9 × 13?",
+    "options": [
+      "A) 126",
+      "B) 117",
+      "C) 108"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 8 × 20?",
+    "options": [
+      "A) 168",
+      "B) 165",
+      "C) 160"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 7 × 7?",
+    "options": [
+      "A) 56",
+      "B) 42",
+      "C) 49"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 18 × 20?",
+    "options": [
+      "A) 350",
+      "B) 360",
+      "C) 353"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 21 × 25?",
+    "options": [
+      "A) 535",
+      "B) 530",
+      "C) 525"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 20 × 13?",
+    "options": [
+      "A) 270",
+      "B) 260",
+      "C) 280"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 9 × 20?",
+    "options": [
+      "A) 175",
+      "B) 171",
+      "C) 180"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 13 × 10?",
+    "options": [
+      "A) 104",
+      "B) 125",
+      "C) 130"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 13 × 16?",
+    "options": [
+      "A) 198",
+      "B) 208",
+      "C) 195"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 10 × 23?",
+    "options": [
+      "A) 230",
+      "B) 225",
+      "C) 220"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 6 × 11?",
+    "options": [
+      "A) 72",
+      "B) 66",
+      "C) 60"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 8 × 21?",
+    "options": [
+      "A) 147",
+      "B) 168",
+      "C) 178"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 25 × 7?",
+    "options": [
+      "A) 182",
+      "B) 175",
+      "C) 191"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 7 × 21?",
+    "options": [
+      "A) 147",
+      "B) 126",
+      "C) 154"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 8 × 8?",
+    "options": [
+      "A) 64",
+      "B) 51",
+      "C) 54"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 18 × 25?",
+    "options": [
+      "A) 450",
+      "B) 449",
+      "C) 455"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 9 × 9?",
+    "options": [
+      "A) 81",
+      "B) 76",
+      "C) 105"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 13 × 19?",
+    "options": [
+      "A) 266",
+      "B) 247",
+      "C) 260"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 16 × 19?",
+    "options": [
+      "A) 304",
+      "B) 309",
+      "C) 294"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 8 × 8?",
+    "options": [
+      "A) 72",
+      "B) 56",
+      "C) 64"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 120 ÷ 6?",
+    "options": [
+      "A) 23",
+      "B) 25",
+      "C) 20"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 390 ÷ 13?",
+    "options": [
+      "A) 30",
+      "B) 35",
+      "C) 28"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 78 ÷ 13?",
+    "options": [
+      "A) 3",
+      "B) 6",
+      "C) 11"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 70 ÷ 5?",
+    "options": [
+      "A) 17",
+      "B) 9",
+      "C) 14"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 513 ÷ 19?",
+    "options": [
+      "A) 22",
+      "B) 30",
+      "C) 27"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 143 ÷ 11?",
+    "options": [
+      "A) 10",
+      "B) 8",
+      "C) 13"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 28 ÷ 4?",
+    "options": [
+      "A) 7",
+      "B) 4",
+      "C) 2"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 208 ÷ 16?",
+    "options": [
+      "A) 11",
+      "B) 13",
+      "C) 18"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 21 ÷ 3?",
+    "options": [
+      "A) 12",
+      "B) 4",
+      "C) 7"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 384 ÷ 16?",
+    "options": [
+      "A) 26",
+      "B) 24",
+      "C) 21"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 208 ÷ 13?",
+    "options": [
+      "A) 16",
+      "B) 19",
+      "C) 14"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 30 ÷ 3?",
+    "options": [
+      "A) 13",
+      "B) 5",
+      "C) 10"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is 216 ÷ 8?",
+    "options": [
+      "A) 23",
+      "B) 27",
+      "C) 25"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 36 ÷ 2?",
+    "options": [
+      "A) 20",
+      "B) 18",
+      "C) 15"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 360 ÷ 18?",
+    "options": [
+      "A) 24",
+      "B) 20",
+      "C) 15"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 45 ÷ 15?",
+    "options": [
+      "A) 3",
+      "B) 8",
+      "C) 6"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 66 ÷ 11?",
+    "options": [
+      "A) 6",
+      "B) 1",
+      "C) 3"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 65 ÷ 13?",
+    "options": [
+      "A) 5",
+      "B) 2",
+      "C) 10"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is 90 ÷ 18?",
+    "options": [
+      "A) 10",
+      "B) 5",
+      "C) 9"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is 324 ÷ 12?",
+    "options": [
+      "A) 32",
+      "B) 22",
+      "C) 27"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is the capital of Tripura?",
+    "options": [
+      "A) Chennai",
+      "B) Ranchi",
+      "C) Agartala"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is the capital of Chhattisgarh?",
+    "options": [
+      "A) Kohima",
+      "B) Mumbai",
+      "C) Raipur"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is the capital of Tripura?",
+    "options": [
+      "A) Agartala",
+      "B) Raipur",
+      "C) Thiruvananthapuram"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Manipur?",
+    "options": [
+      "A) Imphal",
+      "B) Chandigarh",
+      "C) Gangtok"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Chhattisgarh?",
+    "options": [
+      "A) Raipur",
+      "B) Panaji",
+      "C) Chandigarh"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Rajasthan?",
+    "options": [
+      "A) Chandigarh",
+      "B) Jaipur",
+      "C) Kohima"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the capital of Kerala?",
+    "options": [
+      "A) Thiruvananthapuram",
+      "B) Raipur",
+      "C) Leh"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Manipur?",
+    "options": [
+      "A) Imphal",
+      "B) Patna",
+      "C) Dispur"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Assam?",
+    "options": [
+      "A) Dispur",
+      "B) Leh",
+      "C) Gandhinagar"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Odisha?",
+    "options": [
+      "A) Dispur",
+      "B) Bhubaneswar",
+      "C) Chandigarh"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the capital of Karnataka?",
+    "options": [
+      "A) New Delhi",
+      "B) Leh",
+      "C) Bengaluru"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is the capital of Manipur?",
+    "options": [
+      "A) Gandhinagar",
+      "B) Imphal",
+      "C) Chennai"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the capital of Mizoram?",
+    "options": [
+      "A) Dispur",
+      "B) Thiruvananthapuram",
+      "C) Aizawl"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is the capital of Manipur?",
+    "options": [
+      "A) Imphal",
+      "B) Bengaluru",
+      "C) Kavaratti"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Jharkhand?",
+    "options": [
+      "A) Kolkata",
+      "B) Ranchi",
+      "C) Lucknow"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the capital of Uttar Pradesh?",
+    "options": [
+      "A) Raipur",
+      "B) Lucknow",
+      "C) Gangtok"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the capital of Nagaland?",
+    "options": [
+      "A) Chandigarh",
+      "B) Kohima",
+      "C) Lucknow"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the capital of Karnataka?",
+    "options": [
+      "A) Bengaluru",
+      "B) Ranchi",
+      "C) Panaji"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Rajasthan?",
+    "options": [
+      "A) Dehradun",
+      "B) Jaipur",
+      "C) Shimla"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the capital of Jharkhand?",
+    "options": [
+      "A) Lucknow",
+      "B) Chennai",
+      "C) Ranchi"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is the capital of Rajasthan?",
+    "options": [
+      "A) Leh",
+      "B) Jaipur",
+      "C) Port Blair"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the capital of Kerala?",
+    "options": [
+      "A) Bhopal",
+      "B) Jaipur",
+      "C) Thiruvananthapuram"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is the capital of Tripura?",
+    "options": [
+      "A) Srinagar",
+      "B) Bhopal",
+      "C) Agartala"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is the capital of Chhattisgarh?",
+    "options": [
+      "A) Panaji",
+      "B) Chandigarh",
+      "C) Raipur"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is the capital of Sikkim?",
+    "options": [
+      "A) Gangtok",
+      "B) Chennai",
+      "C) Shimla"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Chhattisgarh?",
+    "options": [
+      "A) Thiruvananthapuram",
+      "B) Raipur",
+      "C) Bhopal"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the capital of Telangana?",
+    "options": [
+      "A) Hyderabad",
+      "B) Dispur",
+      "C) Chandigarh"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Sikkim?",
+    "options": [
+      "A) Gangtok",
+      "B) Shillong",
+      "C) Chandigarh"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Tripura?",
+    "options": [
+      "A) Chandigarh",
+      "B) Agartala",
+      "C) Imphal"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the capital of Jharkhand?",
+    "options": [
+      "A) Ranchi",
+      "B) Mumbai",
+      "C) New Delhi"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Manipur?",
+    "options": [
+      "A) Imphal",
+      "B) Chandigarh",
+      "C) Lucknow"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Goa?",
+    "options": [
+      "A) Ranchi",
+      "B) Panaji",
+      "C) Mumbai"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the capital of Rajasthan?",
+    "options": [
+      "A) New Delhi",
+      "B) Jaipur",
+      "C) Agartala"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the capital of Tamil Nadu?",
+    "options": [
+      "A) Chandigarh",
+      "B) Chennai",
+      "C) Kavaratti"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the capital of Tripura?",
+    "options": [
+      "A) Kohima",
+      "B) Agartala",
+      "C) Bengaluru"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the capital of Uttarakhand?",
+    "options": [
+      "A) Panaji",
+      "B) Port Blair",
+      "C) Dehradun"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is the capital of Kerala?",
+    "options": [
+      "A) Kolkata",
+      "B) Itanagar",
+      "C) Thiruvananthapuram"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is the capital of Mizoram?",
+    "options": [
+      "A) Shillong",
+      "B) Aizawl",
+      "C) Agartala"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the capital of Kerala?",
+    "options": [
+      "A) Itanagar",
+      "B) Thiruvananthapuram",
+      "C) Shillong"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the capital of Uttarakhand?",
+    "options": [
+      "A) Gangtok",
+      "B) Ranchi",
+      "C) Dehradun"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is the capital of Jharkhand?",
+    "options": [
+      "A) Ranchi",
+      "B) New Delhi",
+      "C) Shimla"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Manipur?",
+    "options": [
+      "A) Panaji",
+      "B) Amaravati",
+      "C) Imphal"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is the capital of Gujarat?",
+    "options": [
+      "A) Kavaratti",
+      "B) Gandhinagar",
+      "C) Bengaluru"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the capital of Tripura?",
+    "options": [
+      "A) Shillong",
+      "B) Agartala",
+      "C) Bhubaneswar"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the capital of Arunachal Pradesh?",
+    "options": [
+      "A) Itanagar",
+      "B) Aizawl",
+      "C) Kolkata"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Assam?",
+    "options": [
+      "A) Shimla",
+      "B) Dispur",
+      "C) Srinagar"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the capital of Rajasthan?",
+    "options": [
+      "A) Leh",
+      "B) Jaipur",
+      "C) Shillong"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the capital of Jharkhand?",
+    "options": [
+      "A) Ranchi",
+      "B) Port Blair",
+      "C) Amaravati"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Haryana?",
+    "options": [
+      "A) Port Blair",
+      "B) Chandigarh",
+      "C) Bhopal"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the capital of Mizoram?",
+    "options": [
+      "A) Agartala",
+      "B) Aizawl",
+      "C) Raipur"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the capital of Madhya Pradesh?",
+    "options": [
+      "A) Bhopal",
+      "B) New Delhi",
+      "C) Dispur"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Kerala?",
+    "options": [
+      "A) Itanagar",
+      "B) Thiruvananthapuram",
+      "C) Kohima"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the capital of Kerala?",
+    "options": [
+      "A) Thiruvananthapuram",
+      "B) Aizawl",
+      "C) Gandhinagar"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Chhattisgarh?",
+    "options": [
+      "A) Raipur",
+      "B) Dispur",
+      "C) Hyderabad"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Uttarakhand?",
+    "options": [
+      "A) Dehradun",
+      "B) Thiruvananthapuram",
+      "C) Daman"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Rajasthan?",
+    "options": [
+      "A) Shimla",
+      "B) Thiruvananthapuram",
+      "C) Jaipur"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is the capital of Arunachal Pradesh?",
+    "options": [
+      "A) Chandigarh",
+      "B) Mumbai",
+      "C) Itanagar"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is the capital of Arunachal Pradesh?",
+    "options": [
+      "A) Itanagar",
+      "B) Gangtok",
+      "C) Jaipur"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Uttarakhand?",
+    "options": [
+      "A) New Delhi",
+      "B) Dehradun",
+      "C) Puducherry"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the capital of Tripura?",
+    "options": [
+      "A) Bhubaneswar",
+      "B) Agartala",
+      "C) Bhopal"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the capital of West Bengal?",
+    "options": [
+      "A) Kohima",
+      "B) Gangtok",
+      "C) Kolkata"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is the capital of Maharashtra?",
+    "options": [
+      "A) Mumbai",
+      "B) Chandigarh",
+      "C) Dehradun"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Goa?",
+    "options": [
+      "A) Panaji",
+      "B) Srinagar",
+      "C) Agartala"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Uttar Pradesh?",
+    "options": [
+      "A) Port Blair",
+      "B) Panaji",
+      "C) Lucknow"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is the capital of Punjab?",
+    "options": [
+      "A) Jaipur",
+      "B) Chandigarh",
+      "C) Bhopal"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the capital of Assam?",
+    "options": [
+      "A) Dispur",
+      "B) Chandigarh",
+      "C) Gangtok"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Punjab?",
+    "options": [
+      "A) Chandigarh",
+      "B) Daman",
+      "C) Thiruvananthapuram"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Kerala?",
+    "options": [
+      "A) Thiruvananthapuram",
+      "B) Chandigarh",
+      "C) Dispur"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Punjab?",
+    "options": [
+      "A) Daman",
+      "B) Chandigarh",
+      "C) Bhubaneswar"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the capital of Assam?",
+    "options": [
+      "A) Dehradun",
+      "B) Dispur",
+      "C) Agartala"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the capital of Andhra Pradesh?",
+    "options": [
+      "A) Bengaluru",
+      "B) Chandigarh",
+      "C) Amaravati"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is the capital of Assam?",
+    "options": [
+      "A) Dispur",
+      "B) Agartala",
+      "C) Aizawl"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Odisha?",
+    "options": [
+      "A) Bhubaneswar",
+      "B) Dispur",
+      "C) Ranchi"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Kerala?",
+    "options": [
+      "A) Agartala",
+      "B) Chandigarh",
+      "C) Thiruvananthapuram"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is the capital of Mizoram?",
+    "options": [
+      "A) Aizawl",
+      "B) Dehradun",
+      "C) Agartala"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Haryana?",
+    "options": [
+      "A) Shimla",
+      "B) Chandigarh",
+      "C) Itanagar"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the capital of Meghalaya?",
+    "options": [
+      "A) Kavaratti",
+      "B) Shillong",
+      "C) Lucknow"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the capital of Himachal Pradesh?",
+    "options": [
+      "A) Chandigarh",
+      "B) Kohima",
+      "C) Shimla"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is the capital of Tamil Nadu?",
+    "options": [
+      "A) Srinagar",
+      "B) Bhopal",
+      "C) Chennai"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is the capital of West Bengal?",
+    "options": [
+      "A) Chandigarh",
+      "B) Raipur",
+      "C) Kolkata"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is the capital of Chandigarh?",
+    "options": [
+      "A) Chennai",
+      "B) Chandigarh",
+      "C) Agartala"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the capital of Jammu and Kashmir?",
+    "options": [
+      "A) Chandigarh",
+      "B) Srinagar",
+      "C) Bengaluru"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the capital of Ladakh?",
+    "options": [
+      "A) Srinagar",
+      "B) Imphal",
+      "C) Leh"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is the capital of Dadra and Nagar Haveli and Daman and Diu?",
+    "options": [
+      "A) Srinagar",
+      "B) Shillong",
+      "C) Daman"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is the capital of Ladakh?",
+    "options": [
+      "A) Chandigarh",
+      "B) Leh",
+      "C) Shimla"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the capital of Chandigarh?",
+    "options": [
+      "A) Chandigarh",
+      "B) Gangtok",
+      "C) Kolkata"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Lakshadweep?",
+    "options": [
+      "A) Raipur",
+      "B) Dehradun",
+      "C) Kavaratti"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is the capital of Chandigarh?",
+    "options": [
+      "A) Chandigarh",
+      "B) New Delhi",
+      "C) Srinagar"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Dadra and Nagar Haveli and Daman and Diu?",
+    "options": [
+      "A) Shimla",
+      "B) Daman",
+      "C) Thiruvananthapuram"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the capital of Chandigarh?",
+    "options": [
+      "A) Bengaluru",
+      "B) Gangtok",
+      "C) Chandigarh"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is the capital of Ladakh?",
+    "options": [
+      "A) Leh",
+      "B) Imphal",
+      "C) Chennai"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Chandigarh?",
+    "options": [
+      "A) Chandigarh",
+      "B) Kohima",
+      "C) Mumbai"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Dadra and Nagar Haveli and Daman and Diu?",
+    "options": [
+      "A) Chandigarh",
+      "B) Puducherry",
+      "C) Daman"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is the capital of Dadra and Nagar Haveli and Daman and Diu?",
+    "options": [
+      "A) Bengaluru",
+      "B) Daman",
+      "C) Gangtok"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the capital of Andaman and Nicobar Islands?",
+    "options": [
+      "A) Port Blair",
+      "B) Panaji",
+      "C) Dispur"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Delhi (NCT)?",
+    "options": [
+      "A) New Delhi",
+      "B) Itanagar",
+      "C) Dehradun"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Jammu and Kashmir?",
+    "options": [
+      "A) Srinagar",
+      "B) Daman",
+      "C) Shillong"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Jammu and Kashmir?",
+    "options": [
+      "A) Chandigarh",
+      "B) Srinagar",
+      "C) Raipur"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the capital of Dadra and Nagar Haveli and Daman and Diu?",
+    "options": [
+      "A) Daman",
+      "B) Dehradun",
+      "C) Port Blair"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Delhi (NCT)?",
+    "options": [
+      "A) New Delhi",
+      "B) Ranchi",
+      "C) Gangtok"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Ladakh?",
+    "options": [
+      "A) Shimla",
+      "B) Leh",
+      "C) Lucknow"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the capital of Ladakh?",
+    "options": [
+      "A) Chandigarh",
+      "B) Shillong",
+      "C) Leh"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is the capital of Puducherry?",
+    "options": [
+      "A) Shillong",
+      "B) Ranchi",
+      "C) Puducherry"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is the capital of Jammu and Kashmir?",
+    "options": [
+      "A) Agartala",
+      "B) Dehradun",
+      "C) Srinagar"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is the capital of Ladakh?",
+    "options": [
+      "A) Bhopal",
+      "B) Jaipur",
+      "C) Leh"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is the capital of Puducherry?",
+    "options": [
+      "A) Chandigarh",
+      "B) Puducherry",
+      "C) New Delhi"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the capital of Chandigarh?",
+    "options": [
+      "A) Puducherry",
+      "B) Chandigarh",
+      "C) Kolkata"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the capital of Delhi (NCT)?",
+    "options": [
+      "A) Patna",
+      "B) Chennai",
+      "C) New Delhi"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is the capital of Puducherry?",
+    "options": [
+      "A) Daman",
+      "B) Puducherry",
+      "C) Bhubaneswar"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the capital of Chandigarh?",
+    "options": [
+      "A) Chandigarh",
+      "B) Ranchi",
+      "C) Daman"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Lakshadweep?",
+    "options": [
+      "A) Dispur",
+      "B) Kavaratti",
+      "C) Hyderabad"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the capital of Delhi (NCT)?",
+    "options": [
+      "A) Bhubaneswar",
+      "B) Hyderabad",
+      "C) New Delhi"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is the capital of Puducherry?",
+    "options": [
+      "A) Kohima",
+      "B) Chandigarh",
+      "C) Puducherry"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is the capital of Lakshadweep?",
+    "options": [
+      "A) Kavaratti",
+      "B) Hyderabad",
+      "C) Gangtok"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Dadra and Nagar Haveli and Daman and Diu?",
+    "options": [
+      "A) Leh",
+      "B) Daman",
+      "C) Bhopal"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the capital of Andaman and Nicobar Islands?",
+    "options": [
+      "A) Port Blair",
+      "B) Dispur",
+      "C) Shimla"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Puducherry?",
+    "options": [
+      "A) Leh",
+      "B) Chandigarh",
+      "C) Puducherry"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is the capital of Ladakh?",
+    "options": [
+      "A) Leh",
+      "B) Bengaluru",
+      "C) Jaipur"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Ladakh?",
+    "options": [
+      "A) Leh",
+      "B) Puducherry",
+      "C) Srinagar"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Puducherry?",
+    "options": [
+      "A) Hyderabad",
+      "B) Puducherry",
+      "C) Itanagar"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which instrument is used to see very small objects?",
+    "options": [
+      "A) Microscope",
+      "B) Telescope",
+      "C) Periscope"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which organ helps in digestion by producing bile?",
+    "options": [
+      "A) Liver",
+      "B) Pancreas",
+      "C) Kidney"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the currency of the European Union (many countries)?",
+    "options": [
+      "A) Euro",
+      "B) Pound",
+      "C) Franc"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Japan?",
+    "options": [
+      "A) Tokyo",
+      "B) Osaka",
+      "C) Kyoto"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which gas is essential for human respiration?",
+    "options": [
+      "A) Oxygen",
+      "B) Carbon dioxide",
+      "C) Helium"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which Indian city is known as Silicon Valley of India?",
+    "options": [
+      "A) Bengaluru",
+      "B) Hyderabad",
+      "C) Pune"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which blood group is known as the universal recipient?",
+    "options": [
+      "A) AB positive",
+      "B) O negative",
+      "C) B negative"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which organ helps in digestion by producing bile?",
+    "options": [
+      "A) Liver",
+      "B) Pancreas",
+      "C) Kidney"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which ocean is to the south of India?",
+    "options": [
+      "A) Indian Ocean",
+      "B) Atlantic Ocean",
+      "C) Pacific Ocean"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the freezing point of water in °C?",
+    "options": [
+      "A) 0",
+      "B) 10",
+      "C) -10"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Australia?",
+    "options": [
+      "A) Canberra",
+      "B) Sydney",
+      "C) Melbourne"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which organ helps in digestion by producing bile?",
+    "options": [
+      "A) Liver",
+      "B) Pancreas",
+      "C) Kidney"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which Indian festival is known as the festival of lights?",
+    "options": [
+      "A) Diwali",
+      "B) Holi",
+      "C) Eid"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "options": [
+      "A) Mars",
+      "B) Venus",
+      "C) Jupiter"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the square root of 81?",
+    "options": [
+      "A) 9",
+      "B) 8",
+      "C) 7"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is H2O commonly known as?",
+    "options": [
+      "A) Water",
+      "B) Hydrogen peroxide",
+      "C) Salt"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Bangladesh?",
+    "options": [
+      "A) Dhaka",
+      "B) Chittagong",
+      "C) Khulna"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which vitamin is produced in skin by sunlight?",
+    "options": [
+      "A) Vitamin D",
+      "B) Vitamin C",
+      "C) Vitamin B12"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Russia?",
+    "options": [
+      "A) Moscow",
+      "B) Saint Petersburg",
+      "C) Kazan"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which ocean is to the south of India?",
+    "options": [
+      "A) Indian Ocean",
+      "B) Atlantic Ocean",
+      "C) Pacific Ocean"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Singapore?",
+    "options": [
+      "A) Singapore",
+      "B) Jurong",
+      "C) Sentosa"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "How many continents are there?",
+    "options": [
+      "A) 7",
+      "B) 5",
+      "C) 6"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of France?",
+    "options": [
+      "A) Paris",
+      "B) Lyon",
+      "C) Marseille"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which animal is known as the Ship of the Desert?",
+    "options": [
+      "A) Camel",
+      "B) Horse",
+      "C) Donkey"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which is the longest river in the world (commonly taught)?",
+    "options": [
+      "A) Nile",
+      "B) Amazon",
+      "C) Yangtze"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which instrument is used to see very small objects?",
+    "options": [
+      "A) Microscope",
+      "B) Telescope",
+      "C) Periscope"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Pakistan?",
+    "options": [
+      "A) Islamabad",
+      "B) Karachi",
+      "C) Lahore"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the chemical symbol of oxygen?",
+    "options": [
+      "A) O",
+      "B) Ox",
+      "C) Og"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which gas do plants absorb from the atmosphere?",
+    "options": [
+      "A) Carbon dioxide",
+      "B) Oxygen",
+      "C) Nitrogen"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the chemical symbol of oxygen?",
+    "options": [
+      "A) O",
+      "B) Ox",
+      "C) Og"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which part of the plant conducts photosynthesis?",
+    "options": [
+      "A) Leaves",
+      "B) Roots",
+      "C) Stem"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which Indian city is known as Silicon Valley of India?",
+    "options": [
+      "A) Bengaluru",
+      "B) Hyderabad",
+      "C) Pune"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Canada?",
+    "options": [
+      "A) Ottawa",
+      "B) Toronto",
+      "C) Vancouver"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Sri Lanka?",
+    "options": [
+      "A) Sri Jayawardenepura Kotte",
+      "B) Colombo",
+      "C) Kandy"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which is the smallest prime number?",
+    "options": [
+      "A) 2",
+      "B) 1",
+      "C) 3"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which gas do plants absorb from the atmosphere?",
+    "options": [
+      "A) Carbon dioxide",
+      "B) Oxygen",
+      "C) Nitrogen"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which direction does the Sun set?",
+    "options": [
+      "A) West",
+      "B) East",
+      "C) South"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which is the largest desert in the world (hot desert)?",
+    "options": [
+      "A) Sahara",
+      "B) Gobi",
+      "C) Kalahari"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which Indian festival is known as the festival of lights?",
+    "options": [
+      "A) Diwali",
+      "B) Holi",
+      "C) Eid"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the square root of 81?",
+    "options": [
+      "A) 9",
+      "B) 8",
+      "C) 7"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is H2O commonly known as?",
+    "options": [
+      "A) Water",
+      "B) Hydrogen peroxide",
+      "C) Salt"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which is the longest river in the world (commonly taught)?",
+    "options": [
+      "A) Nile",
+      "B) Amazon",
+      "C) Yangtze"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which is the closest planet to the Sun?",
+    "options": [
+      "A) Mercury",
+      "B) Venus",
+      "C) Earth"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the national animal of India?",
+    "options": [
+      "A) Bengal tiger",
+      "B) Lion",
+      "C) Elephant"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "How many minutes are there in one hour?",
+    "options": [
+      "A) 60",
+      "B) 50",
+      "C) 100"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "How many players are on the field per team in football (soccer)?",
+    "options": [
+      "A) 11",
+      "B) 10",
+      "C) 12"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "How many seconds are there in one minute?",
+    "options": [
+      "A) 60",
+      "B) 100",
+      "C) 30"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which device is used to measure temperature?",
+    "options": [
+      "A) Thermometer",
+      "B) Barometer",
+      "C) Hygrometer"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which blood group is known as the universal recipient?",
+    "options": [
+      "A) AB positive",
+      "B) O negative",
+      "C) B negative"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which Indian festival is known as the festival of lights?",
+    "options": [
+      "A) Diwali",
+      "B) Holi",
+      "C) Eid"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "How many continents are there?",
+    "options": [
+      "A) 7",
+      "B) 5",
+      "C) 6"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which vitamin is produced in skin by sunlight?",
+    "options": [
+      "A) Vitamin D",
+      "B) Vitamin C",
+      "C) Vitamin B12"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which organ is responsible for breathing?",
+    "options": [
+      "A) Lungs",
+      "B) Liver",
+      "C) Stomach"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which direction does the Sun set?",
+    "options": [
+      "A) West",
+      "B) East",
+      "C) South"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the currency of Japan?",
+    "options": [
+      "A) Yen",
+      "B) Won",
+      "C) Yuan"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the boiling point of water (at sea level) in °C?",
+    "options": [
+      "A) 100",
+      "B) 90",
+      "C) 80"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the currency of Japan?",
+    "options": [
+      "A) Yen",
+      "B) Won",
+      "C) Yuan"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the currency of the United States?",
+    "options": [
+      "A) US Dollar",
+      "B) Euro",
+      "C) Pound"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which gas do plants absorb from the atmosphere?",
+    "options": [
+      "A) Carbon dioxide",
+      "B) Oxygen",
+      "C) Nitrogen"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which planet is known for its rings?",
+    "options": [
+      "A) Saturn",
+      "B) Mars",
+      "C) Mercury"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which is the longest river in the world (commonly taught)?",
+    "options": [
+      "A) Nile",
+      "B) Amazon",
+      "C) Yangtze"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which Indian festival is known as the festival of lights?",
+    "options": [
+      "A) Diwali",
+      "B) Holi",
+      "C) Eid"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "How many rings are there on the Olympic flag?",
+    "options": [
+      "A) 5",
+      "B) 4",
+      "C) 6"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which direction does the Sun set?",
+    "options": [
+      "A) West",
+      "B) East",
+      "C) South"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which organ is responsible for breathing?",
+    "options": [
+      "A) Lungs",
+      "B) Liver",
+      "C) Stomach"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the currency of the United States?",
+    "options": [
+      "A) US Dollar",
+      "B) Euro",
+      "C) Pound"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Thailand?",
+    "options": [
+      "A) Bangkok",
+      "B) Phuket",
+      "C) Chiang Mai"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which ocean is to the south of India?",
+    "options": [
+      "A) Indian Ocean",
+      "B) Atlantic Ocean",
+      "C) Pacific Ocean"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "How many seconds are there in one minute?",
+    "options": [
+      "A) 60",
+      "B) 100",
+      "C) 30"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is H2O commonly known as?",
+    "options": [
+      "A) Water",
+      "B) Hydrogen peroxide",
+      "C) Salt"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the chemical symbol of gold?",
+    "options": [
+      "A) Au",
+      "B) Ag",
+      "C) Gd"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "How many rings are there on the Olympic flag?",
+    "options": [
+      "A) 5",
+      "B) 4",
+      "C) 6"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Bangladesh?",
+    "options": [
+      "A) Dhaka",
+      "B) Chittagong",
+      "C) Khulna"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the currency of the United Kingdom?",
+    "options": [
+      "A) Pound sterling",
+      "B) Euro",
+      "C) Dollar"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of China?",
+    "options": [
+      "A) Beijing",
+      "B) Shanghai",
+      "C) Shenzhen"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the currency of the United States?",
+    "options": [
+      "A) US Dollar",
+      "B) Euro",
+      "C) Pound"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the capital of Germany?",
+    "options": [
+      "A) Berlin",
+      "B) Munich",
+      "C) Hamburg"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "How many rings are there on the Olympic flag?",
+    "options": [
+      "A) 5",
+      "B) 4",
+      "C) 6"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which animal is known as the Ship of the Desert?",
+    "options": [
+      "A) Camel",
+      "B) Horse",
+      "C) Donkey"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which blood group is known as the universal donor?",
+    "options": [
+      "A) O negative",
+      "B) AB positive",
+      "C) A positive"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What does Wi‑Fi refer to?",
+    "options": [
+      "A) Wireless networking",
+      "B) Wired file",
+      "C) Web filter"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the brain of the computer?",
+    "options": [
+      "A) CPU",
+      "B) Monitor",
+      "C) Hard disk"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the brain of the computer?",
+    "options": [
+      "A) CPU",
+      "B) Monitor",
+      "C) Hard disk"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which storage is typically largest?",
+    "options": [
+      "A) Hard disk/SSD",
+      "B) RAM",
+      "C) Cache"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which company developed Windows?",
+    "options": [
+      "A) Microsoft",
+      "B) Apple",
+      "C) Google"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which storage is typically largest?",
+    "options": [
+      "A) Hard disk/SSD",
+      "B) RAM",
+      "C) Cache"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which company developed Windows?",
+    "options": [
+      "A) Microsoft",
+      "B) Apple",
+      "C) Google"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which device displays output on screen?",
+    "options": [
+      "A) Monitor",
+      "B) Scanner",
+      "C) Mouse"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which device is used to input text?",
+    "options": [
+      "A) Keyboard",
+      "B) Monitor",
+      "C) Printer"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What does OTP stand for?",
+    "options": [
+      "A) One Time Password",
+      "B) One Two Password",
+      "C) On Time Pass"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which is an example of cloud storage?",
+    "options": [
+      "A) Google Drive",
+      "B) Calculator",
+      "C) Keyboard"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which of these is an operating system?",
+    "options": [
+      "A) Windows",
+      "B) Google",
+      "C) Intel"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which of these is an operating system?",
+    "options": [
+      "A) Windows",
+      "B) Google",
+      "C) Intel"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What does RAM stand for?",
+    "options": [
+      "A) Random Access Memory",
+      "B) Read Access Memory",
+      "C) Rapid Access Module"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the full form of USB?",
+    "options": [
+      "A) Universal Serial Bus",
+      "B) Uniform System Board",
+      "C) Universal Signal Base"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which of these is an operating system?",
+    "options": [
+      "A) Windows",
+      "B) Google",
+      "C) Intel"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which of these is an operating system?",
+    "options": [
+      "A) Windows",
+      "B) Google",
+      "C) Intel"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What does RAM stand for?",
+    "options": [
+      "A) Random Access Memory",
+      "B) Read Access Memory",
+      "C) Rapid Access Module"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which device is used to input text?",
+    "options": [
+      "A) Keyboard",
+      "B) Monitor",
+      "C) Printer"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which key is used to create a new line?",
+    "options": [
+      "A) Enter",
+      "B) Shift",
+      "C) Ctrl"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What does HTTP stand for?",
+    "options": [
+      "A) HyperText Transfer Protocol",
+      "B) High Transfer Text Protocol",
+      "C) Hyper Transfer Text Process"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What does Wi‑Fi refer to?",
+    "options": [
+      "A) Wireless networking",
+      "B) Wired file",
+      "C) Web filter"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which device is used to input text?",
+    "options": [
+      "A) Keyboard",
+      "B) Monitor",
+      "C) Printer"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which device displays output on screen?",
+    "options": [
+      "A) Monitor",
+      "B) Scanner",
+      "C) Mouse"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What does CPU stand for?",
+    "options": [
+      "A) Central Processing Unit",
+      "B) Computer Power Unit",
+      "C) Central Program Utility"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which storage is typically largest?",
+    "options": [
+      "A) Hard disk/SSD",
+      "B) RAM",
+      "C) Cache"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which device prints documents?",
+    "options": [
+      "A) Printer",
+      "B) Router",
+      "C) Joystick"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which key is used to create a new line?",
+    "options": [
+      "A) Enter",
+      "B) Shift",
+      "C) Ctrl"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What does Wi‑Fi refer to?",
+    "options": [
+      "A) Wireless networking",
+      "B) Wired file",
+      "C) Web filter"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What does Wi‑Fi refer to?",
+    "options": [
+      "A) Wireless networking",
+      "B) Wired file",
+      "C) Web filter"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the brain of the computer?",
+    "options": [
+      "A) CPU",
+      "B) Monitor",
+      "C) Hard disk"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What does URL stand for?",
+    "options": [
+      "A) Uniform Resource Locator",
+      "B) Universal Resource Link",
+      "C) Uniform Record Locator"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What does HTTP stand for?",
+    "options": [
+      "A) HyperText Transfer Protocol",
+      "B) High Transfer Text Protocol",
+      "C) Hyper Transfer Text Process"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What does URL stand for?",
+    "options": [
+      "A) Uniform Resource Locator",
+      "B) Universal Resource Link",
+      "C) Uniform Record Locator"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What does RAM stand for?",
+    "options": [
+      "A) Random Access Memory",
+      "B) Read Access Memory",
+      "C) Rapid Access Module"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What does ROM stand for?",
+    "options": [
+      "A) Read Only Memory",
+      "B) Run On Memory",
+      "C) Random Only Memory"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which is an example of cloud storage?",
+    "options": [
+      "A) Google Drive",
+      "B) Calculator",
+      "C) Keyboard"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which of these is an operating system?",
+    "options": [
+      "A) Windows",
+      "B) Google",
+      "C) Intel"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which storage is typically largest?",
+    "options": [
+      "A) Hard disk/SSD",
+      "B) RAM",
+      "C) Cache"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What does RAM stand for?",
+    "options": [
+      "A) Random Access Memory",
+      "B) Read Access Memory",
+      "C) Rapid Access Module"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which device prints documents?",
+    "options": [
+      "A) Printer",
+      "B) Router",
+      "C) Joystick"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which key is used to create a new line?",
+    "options": [
+      "A) Enter",
+      "B) Shift",
+      "C) Ctrl"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which device prints documents?",
+    "options": [
+      "A) Printer",
+      "B) Router",
+      "C) Joystick"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What does RAM stand for?",
+    "options": [
+      "A) Random Access Memory",
+      "B) Read Access Memory",
+      "C) Rapid Access Module"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is used to connect multiple computers in a network?",
+    "options": [
+      "A) Router",
+      "B) Speaker",
+      "C) Projector"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What does Wi‑Fi refer to?",
+    "options": [
+      "A) Wireless networking",
+      "B) Wired file",
+      "C) Web filter"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which device prints documents?",
+    "options": [
+      "A) Printer",
+      "B) Router",
+      "C) Joystick"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What does URL stand for?",
+    "options": [
+      "A) Uniform Resource Locator",
+      "B) Universal Resource Link",
+      "C) Uniform Record Locator"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What does RAM stand for?",
+    "options": [
+      "A) Random Access Memory",
+      "B) Read Access Memory",
+      "C) Rapid Access Module"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What does CPU stand for?",
+    "options": [
+      "A) Central Processing Unit",
+      "B) Computer Power Unit",
+      "C) Central Program Utility"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What does URL stand for?",
+    "options": [
+      "A) Uniform Resource Locator",
+      "B) Universal Resource Link",
+      "C) Uniform Record Locator"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which is an example of cloud storage?",
+    "options": [
+      "A) Google Drive",
+      "B) Calculator",
+      "C) Keyboard"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What does OTP stand for?",
+    "options": [
+      "A) One Time Password",
+      "B) One Two Password",
+      "C) On Time Pass"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which device is used to input text?",
+    "options": [
+      "A) Keyboard",
+      "B) Monitor",
+      "C) Printer"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What does HTTP stand for?",
+    "options": [
+      "A) HyperText Transfer Protocol",
+      "B) High Transfer Text Protocol",
+      "C) Hyper Transfer Text Process"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What does URL stand for?",
+    "options": [
+      "A) Uniform Resource Locator",
+      "B) Universal Resource Link",
+      "C) Uniform Record Locator"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which symbol is used in email addresses?",
+    "options": [
+      "A) @",
+      "B) #",
+      "C) $"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which storage is typically largest?",
+    "options": [
+      "A) Hard disk/SSD",
+      "B) RAM",
+      "C) Cache"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the full form of USB?",
+    "options": [
+      "A) Universal Serial Bus",
+      "B) Uniform System Board",
+      "C) Universal Signal Base"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What does Wi‑Fi refer to?",
+    "options": [
+      "A) Wireless networking",
+      "B) Wired file",
+      "C) Web filter"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which sport uses a racket?",
+    "options": [
+      "A) Tennis",
+      "B) Cricket",
+      "C) Hockey"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "In cricket, how many balls are in an over?",
+    "options": [
+      "A) 6",
+      "B) 5",
+      "C) 8"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which sport uses a shuttlecock?",
+    "options": [
+      "A) Badminton",
+      "B) Table tennis",
+      "C) Squash"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "How many sets are usually played in a standard tennis match (men’s Grand Slam)?",
+    "options": [
+      "A) Best of 5",
+      "B) Best of 3",
+      "C) Best of 7"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "How many players are on court per team in basketball?",
+    "options": [
+      "A) 5",
+      "B) 6",
+      "C) 7"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "In which sport is the term 'goal' commonly used?",
+    "options": [
+      "A) Football",
+      "B) Cricket",
+      "C) Tennis"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which sport has 'checkmate'?",
+    "options": [
+      "A) Chess",
+      "B) Carrom",
+      "C) Ludo"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which sport uses a racket?",
+    "options": [
+      "A) Tennis",
+      "B) Cricket",
+      "C) Hockey"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which sport uses a shuttlecock?",
+    "options": [
+      "A) Badminton",
+      "B) Table tennis",
+      "C) Squash"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "How many sets are usually played in a standard tennis match (men’s Grand Slam)?",
+    "options": [
+      "A) Best of 5",
+      "B) Best of 3",
+      "C) Best of 7"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which sport uses a racket?",
+    "options": [
+      "A) Tennis",
+      "B) Cricket",
+      "C) Hockey"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "How many players are there in a cricket team?",
+    "options": [
+      "A) 11",
+      "B) 10",
+      "C) 12"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which sport has 'checkmate'?",
+    "options": [
+      "A) Chess",
+      "B) Carrom",
+      "C) Ludo"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "How many sets are usually played in a standard tennis match (men’s Grand Slam)?",
+    "options": [
+      "A) Best of 5",
+      "B) Best of 3",
+      "C) Best of 7"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which sport is played on a pitch?",
+    "options": [
+      "A) Cricket",
+      "B) Swimming",
+      "C) Boxing"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "How many players are on court per team in basketball?",
+    "options": [
+      "A) 5",
+      "B) 6",
+      "C) 7"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which sport uses a racket?",
+    "options": [
+      "A) Tennis",
+      "B) Cricket",
+      "C) Hockey"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which sport is played on a pitch?",
+    "options": [
+      "A) Cricket",
+      "B) Swimming",
+      "C) Boxing"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which is India’s national sport (commonly cited historically)?",
+    "options": [
+      "A) Hockey",
+      "B) Cricket",
+      "C) Football"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which is India’s national sport (commonly cited historically)?",
+    "options": [
+      "A) Hockey",
+      "B) Cricket",
+      "C) Football"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "In cricket, how many balls are in an over?",
+    "options": [
+      "A) 6",
+      "B) 5",
+      "C) 8"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which sport has 'checkmate'?",
+    "options": [
+      "A) Chess",
+      "B) Carrom",
+      "C) Ludo"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "In which sport is the term 'goal' commonly used?",
+    "options": [
+      "A) Football",
+      "B) Cricket",
+      "C) Tennis"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which is India’s national sport (commonly cited historically)?",
+    "options": [
+      "A) Hockey",
+      "B) Cricket",
+      "C) Football"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "In which sport is the term 'goal' commonly used?",
+    "options": [
+      "A) Football",
+      "B) Cricket",
+      "C) Tennis"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which sport uses a racket?",
+    "options": [
+      "A) Tennis",
+      "B) Cricket",
+      "C) Hockey"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which sport uses a racket?",
+    "options": [
+      "A) Tennis",
+      "B) Cricket",
+      "C) Hockey"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which sport uses a shuttlecock?",
+    "options": [
+      "A) Badminton",
+      "B) Table tennis",
+      "C) Squash"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which sport has 'checkmate'?",
+    "options": [
+      "A) Chess",
+      "B) Carrom",
+      "C) Ludo"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "How many players are on court per team in basketball?",
+    "options": [
+      "A) 5",
+      "B) 6",
+      "C) 7"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "How many players are there in a cricket team?",
+    "options": [
+      "A) 11",
+      "B) 10",
+      "C) 12"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "How many sets are usually played in a standard tennis match (men’s Grand Slam)?",
+    "options": [
+      "A) Best of 5",
+      "B) Best of 3",
+      "C) Best of 7"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which is India’s national sport (commonly cited historically)?",
+    "options": [
+      "A) Hockey",
+      "B) Cricket",
+      "C) Football"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "How many players are on court per team in basketball?",
+    "options": [
+      "A) 5",
+      "B) 6",
+      "C) 7"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which sport uses a shuttlecock?",
+    "options": [
+      "A) Badminton",
+      "B) Table tennis",
+      "C) Squash"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "How many sets are usually played in a standard tennis match (men’s Grand Slam)?",
+    "options": [
+      "A) Best of 5",
+      "B) Best of 3",
+      "C) Best of 7"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which sport has 'checkmate'?",
+    "options": [
+      "A) Chess",
+      "B) Carrom",
+      "C) Ludo"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "How many sets are usually played in a standard tennis match (men’s Grand Slam)?",
+    "options": [
+      "A) Best of 5",
+      "B) Best of 3",
+      "C) Best of 7"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which sport is played on a pitch?",
+    "options": [
+      "A) Cricket",
+      "B) Swimming",
+      "C) Boxing"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which sport is played on a pitch?",
+    "options": [
+      "A) Cricket",
+      "B) Swimming",
+      "C) Boxing"
+    ],
+    "answer": "A"
+  }
 ]
