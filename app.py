@@ -21,8 +21,8 @@ VERIFY_TOKEN = "quizbot123"
 # ✅ GAME SETTINGS
 # =========================
 MIN_PLAYERS = 2          # you set 2 for testing, later make 5
-QUESTIONS_PER_GAME = 3
-QUESTION_TIME_LIMIT = 15  # seconds per question (auto next)
+QUESTIONS_PER_GAME = 5
+QUESTION_TIME_LIMIT = 20  # seconds per question (auto next)
 POINTS_PER_CORRECT = 1
 
 # =========================
@@ -453,4 +453,5 @@ def webhook():
 # =========================
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
+
     app.run(host="0.0.0.0", port=port, debug=True)
